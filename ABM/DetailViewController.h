@@ -8,10 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
+@class Cliente;//No se preocupe, cliente es una clase
+
 @interface DetailViewController : UIViewController
 
-@property (strong, nonatomic) id detailItem;
-
+@property (strong, nonatomic) Cliente * cliente;
 @property (strong, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
+@property (strong, nonatomic) IBOutlet UITextField * txtNombre;
+@property (strong, nonatomic) IBOutlet UISwitch * swDebe;
 
 @end

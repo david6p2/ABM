@@ -16,6 +16,9 @@
 		240B3C7F15C9C29F00202AA7 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 240B3C7D15C9C29F00202AA7 /* MainStoryboard.storyboard */; };
 		240B3C8215C9C29F00202AA7 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 240B3C8115C9C29F00202AA7 /* MasterViewController.m */; };
 		240B3C8515C9C29F00202AA7 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 240B3C8415C9C29F00202AA7 /* DetailViewController.m */; };
+		240B3C8D15C9C55D00202AA7 /* Cliente.m in Sources */ = {isa = PBXBuildFile; fileRef = 240B3C8C15C9C55D00202AA7 /* Cliente.m */; };
+		240B3C9015C9C5EF00202AA7 /* RepositorioClientes.m in Sources */ = {isa = PBXBuildFile; fileRef = 240B3C8F15C9C5EF00202AA7 /* RepositorioClientes.m */; };
+		240B3C9915C9D35E00202AA7 /* AgregarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 240B3C9815C9D35E00202AA7 /* AgregarViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,17 +26,23 @@
 		240B3C6B15C9C29E00202AA7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		240B3C6D15C9C29E00202AA7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		240B3C6F15C9C29E00202AA7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		240B3C7315C9C29E00202AA7 /* ABM-Info.plist */ = {isa = PBXFileReference; path = "ABM-Info.plist"; sourceTree = "<group>"; };
+		240B3C7315C9C29E00202AA7 /* ABM-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ABM-Info.plist"; sourceTree = "<group>"; };
 		240B3C7515C9C29E00202AA7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		240B3C7715C9C29E00202AA7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		240B3C7915C9C29E00202AA7 /* ABM-Prefix.pch */ = {isa = PBXFileReference; path = "ABM-Prefix.pch"; sourceTree = "<group>"; };
-		240B3C7A15C9C29E00202AA7 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		240B3C7915C9C29E00202AA7 /* ABM-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ABM-Prefix.pch"; sourceTree = "<group>"; };
+		240B3C7A15C9C29E00202AA7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		240B3C7B15C9C29E00202AA7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		240B3C7E15C9C29F00202AA7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		240B3C8015C9C29F00202AA7 /* MasterViewController.h */ = {isa = PBXFileReference; path = MasterViewController.h; sourceTree = "<group>"; };
+		240B3C8015C9C29F00202AA7 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
 		240B3C8115C9C29F00202AA7 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		240B3C8315C9C29F00202AA7 /* DetailViewController.h */ = {isa = PBXFileReference; path = DetailViewController.h; sourceTree = "<group>"; };
+		240B3C8315C9C29F00202AA7 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		240B3C8415C9C29F00202AA7 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		240B3C8B15C9C55D00202AA7 /* Cliente.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cliente.h; sourceTree = "<group>"; };
+		240B3C8C15C9C55D00202AA7 /* Cliente.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cliente.m; sourceTree = "<group>"; };
+		240B3C8E15C9C5EF00202AA7 /* RepositorioClientes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RepositorioClientes.h; sourceTree = "<group>"; };
+		240B3C8F15C9C5EF00202AA7 /* RepositorioClientes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RepositorioClientes.m; sourceTree = "<group>"; };
+		240B3C9715C9D35E00202AA7 /* AgregarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgregarViewController.h; sourceTree = "<group>"; };
+		240B3C9815C9D35E00202AA7 /* AgregarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AgregarViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,10 +92,16 @@
 				240B3C7A15C9C29E00202AA7 /* AppDelegate.h */,
 				240B3C7B15C9C29E00202AA7 /* AppDelegate.m */,
 				240B3C7D15C9C29F00202AA7 /* MainStoryboard.storyboard */,
+				240B3C8B15C9C55D00202AA7 /* Cliente.h */,
+				240B3C8C15C9C55D00202AA7 /* Cliente.m */,
+				240B3C8E15C9C5EF00202AA7 /* RepositorioClientes.h */,
+				240B3C8F15C9C5EF00202AA7 /* RepositorioClientes.m */,
 				240B3C8015C9C29F00202AA7 /* MasterViewController.h */,
 				240B3C8115C9C29F00202AA7 /* MasterViewController.m */,
 				240B3C8315C9C29F00202AA7 /* DetailViewController.h */,
 				240B3C8415C9C29F00202AA7 /* DetailViewController.m */,
+				240B3C9715C9D35E00202AA7 /* AgregarViewController.h */,
+				240B3C9815C9D35E00202AA7 /* AgregarViewController.m */,
 				240B3C7215C9C29E00202AA7 /* Supporting Files */,
 			);
 			path = ABM;
@@ -170,6 +185,9 @@
 				240B3C7C15C9C29E00202AA7 /* AppDelegate.m in Sources */,
 				240B3C8215C9C29F00202AA7 /* MasterViewController.m in Sources */,
 				240B3C8515C9C29F00202AA7 /* DetailViewController.m in Sources */,
+				240B3C8D15C9C55D00202AA7 /* Cliente.m in Sources */,
+				240B3C9015C9C5EF00202AA7 /* RepositorioClientes.m in Sources */,
+				240B3C9915C9D35E00202AA7 /* AgregarViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,7 +264,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ABM/ABM-Prefix.pch";
 				INFOPLIST_FILE = "ABM/ABM-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -257,7 +277,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ABM/ABM-Prefix.pch";
 				INFOPLIST_FILE = "ABM/ABM-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
